@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>title</title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/styles768.css"/>
+    <link rel="stylesheet" href="css/styles992.css"/>
+    <link rel="stylesheet" href="css/styles1200.css"/>
+    <link rel="stylesheet" href="css/styles1600.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&amp;subset=hebrew" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+
+</head>
+<body ontouchstart="">
+<main>
+    <header></header>
+    <div class="wrapper">
+
+
+        <div id="demo" class="collapse">
+            <form class="settingContainer container-fluid" name="settings">
+                <div class="row">
+                    <div class="col-xs-4 settItem fieldsNum">
+                        <div class="innerSettItem">
+                            <p class="xs-text">fields</br>number</p>
+                            <div class="inputFieldContainer">
+                                <input class="inputField" type="number" value="3" name="rangeField"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 settItem minRange">
+                        <div class="innerSettItem">
+                            <p class="xs-text">min</br>range</p>
+                            <div class="inputFieldContainer">
+                                <input class="inputField" min="1" max="99" value="1" type="number" name="rangeMin"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4 settItem maxRange">
+                        <div class="innerSettItem">
+                            <p class="xs-text">max</br>range</p>
+                            <div class="inputFieldContainer">
+                                <input class="inputField" min="1" max="99" value="99" type="number" name="rangeMax"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 saveContainer">
+                        <input type="button" class="saveBtn" value="Save"
+                               onclick="lotto.saveSettings()"/>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+        <button type="button" class="btn settingBtn" data-toggle="collapse" data-target="#demo">Settings</button>
+
+
+        <form class="lottoform" name="lottoform">
+            <input class="btn rollBtn" name="roll" type="button" value="Roll" onclick="lotto.rollNumbers()"/>
+            <ul class="listResult list-inline" id="listResult"></ul>
+            <br>
+        </form>
+
+    </div>
+    <footer></footer>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,297 @@
+/* start reset*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+button {
+  min-width: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
+button,
+a {
+  color: #0000ff;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+a:focus,
+a:hover {
+  color: #0000ff;
+  text-decoration: none;
+}
+textarea,
+input {
+  font: 1em/1.4 'HadassaLineProV2-Regular', arial;
+  -webkit-appearance: none;
+  border-radius: 0;
+  padding: 0;
+}
+textarea {
+  resize: none;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+.focus,
+:focus {
+  outline: none !important;
+}
+label {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+select {
+  opacity: 0;
+  font-size: 16px !important;
+}
+input::-ms-clear {
+  display: none;
+}
+.container,
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.col-xs-20 {
+  float: right;
+  width: 20%;
+}
+.dropdown-menu {
+  font-size: 10px;
+}
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+  border-bottom-color: transparent;
+}
+.panel {
+  margin-bottom: 0;
+  background: none;
+  border: none;
+  border-radius: 0 !important;
+  box-shadow: none;
+}
+.panel-group {
+  margin-bottom: 0;
+}
+.panel-body {
+  padding: 0;
+}
+.noCursor {
+  cursor: default;
+}
+a[href^="tel:"] {
+  text-decoration: underline;
+  white-space: nowrap;
+}
+a[href^="mailTo:"] {
+  text-decoration: underline;
+  -ms-word-break: break-all;
+  word-break: break-all;
+}
+.radio,
+.checkbox {
+  padding: 0;
+  margin: 0;
+  min-height: 0;
+}
+.modal-open {
+  position: fixed;
+  width: 100%;
+}
+.container-fluid {
+  max-width: 1200px;
+}
+/* end reset*/
+.settingContainer {
+  background-color: #eff0f3;
+  font-size: 30px;
+  font-family: 'Rubik', sans-serif;
+  -webkit-box-shadow: inset 0px -5px 3px -3px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: inset 0px -5px 3px -3px rgba(0, 0, 0, 0.42);
+  box-shadow: inset 0px -5px 3px -3px rgba(0, 0, 0, 0.12);
+  height: 40vh;
+  position: relative;
+}
+.settingContainer.container-fluid {
+  max-width: inherit;
+}
+.settingContainer .row {
+  margin: auto;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 100%;
+}
+.settItem {
+  padding: 10px;
+}
+.innerSettItem {
+  border: 3px solid blue;
+  background-color: blue;
+  position: relative;
+}
+.inputField {
+  border: none;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+}
+.inputFieldContainer {
+  max-width: 120px;
+  margin: auto;
+}
+.xs-text {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 500;
+  padding-top: 10px;
+}
+.saveContainer {
+  margin: auto;
+  text-align: center;
+}
+.saveBtn {
+  border: none;
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: blue;
+  -webkit-box-shadow: 0px 5px 3px -3px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0px 5px 3px -3px rgba(0, 0, 0, 0.42);
+  box-shadow: 0px 5px 3px -3px rgba(0, 0, 0, 0.42);
+  font-size: 15px;
+}
+.wrapper {
+  position: relative;
+  height: 100vh;
+}
+.settingBtn {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  padding: 8px 20px;
+  border-radius: 0;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.btn.focus,
+.btn:focus,
+.btn:hover {
+  color: white;
+  text-decoration: none;
+}
+.lottoform {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 160px;
+}
+.listResult {
+  height: 100px;
+  margin-top: 40px;
+  position: relative;
+}
+.listResult li {
+  font-size: 45px;
+  padding: 10px;
+  border: 1px solid blue;
+  color: blue;
+  border-radius: 10px;
+  width: 80px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.rollBtn {
+  font-size: 35px;
+  padding: 0;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  background-color: blue;
+  border-radius: 50%;
+  color: white;
+}

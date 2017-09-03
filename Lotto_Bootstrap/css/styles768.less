@@ -1,0 +1,80 @@
+﻿@import '_elements';
+
+@media (min-width: 768px) {
+  .settingContainer {
+    height: 35vh;
+
+    .row {
+      width: 700px;
+    }
+
+  }
+
+  .innerSettItem {
+    padding: 50px 10px;
+    border: 3px solid blue;
+
+    &:before {
+      content: "";
+      background: url(../img/iconDollar.png) no-repeat center center;
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      position: absolute;
+      transform: translateX(-50%);
+      left: 50%;
+      top: 0;
+      margin-top: 15px;
+    }
+  }
+
+  .inputField {
+    font-size: 50px;
+    border-bottom: solid 1px white;
+  }
+
+  .saveContainer {
+    margin-top: 40px;
+  }
+
+  .xs-text {
+    font-size: 17px;
+    padding-top: 0;
+
+  }
+
+  .saveBtn {
+    font-size: 30px;
+  }
+
+  .lottoform {
+    margin-top: 50px;
+  }
+
+  .listResult {
+    height: 100px;
+    margin-top: 40px;
+
+    &:before {
+      content: "";
+      background: url("../img/lotteries.png") no-repeat center center;
+      width: 606px;
+      height: 224px;
+      display: inline-block;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+      margin-top: 230px;
+      background-size: 80%;
+    }
+
+    li {
+      display: inline-block;
+      text-align: center;
+      margin: 8px;
+      margin-bottom: 0;
+
+    }
+  }
+}
